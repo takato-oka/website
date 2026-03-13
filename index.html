@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>A29K010TakatoOka</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Joan&display=swap" rel="stylesheet">
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Joan&family=Judson:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho&display=swap" rel="stylesheet">
+
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
+
+
+
+
+  <!-- cssの読込 -->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+
+
+  <!-- javascriptの読込 -->
+  <script src="assets/js/jquery-3.7.1.min.js" charset="utf-8"></script>
+  <script src="assets/js/script.js"></script>
+
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Shippori+Mincho&display=swap" rel="stylesheet">
+</head>    
+
+
+<body>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <div class="lines">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+  </div> 
+
+  <a href="index.html">
+    <img class="rogo2" src="assets/svg/rogo3.svg" alt="ロゴ画像">
+  </a>
+  
+
+  <div class="globalMenu mfont">
+    <ul><!-- リストの入れ物 -->
+      <li>
+        <a href="#gallery">ART WORK</a><!-- リンク指定：ページ内 -->
+      </li><!-- リスト -->
+      <li>
+      <a href="#profile">PROFILE</a><!-- リンク指定：ページ内 -->
+    </li><!-- リスト -->
+      <li>
+        <a href="#contact">CONTACT</a><!-- リンク指定：ページ内 -->
+      </li><!-- リスト -->
+   
+    </ul>
+
+
+  </div>
+ <!-- タイトル -->
+
+
+
+ <!-- マウスストーカー -->
+  <div class="mouse-stalker-item">
+    <div class="mouse-stalker-item-circle"></div>
+  </div>
+
+
+
+  <!-- ハンバーガーメニュー -->
+  <div class="header">
+    <button class="hamburger-overlay" aria-label="メニュー" aria-controls="overlay-menu" aria-expanded="false">
+      <span class="hamburger-overlay__line"></span>
+      <span class="hamburger-overlay__line"></span>
+      <span class="hamburger-overlay__line"></span>
+    </button>
+  
+    <nav id="overlay-menu" class="nav-overlay" aria-hidden="true">
+      <div class="nav-overlay__content">
+        <ul class="nav-overlay__list webfont">
+          <li class="nav-overlay__item"><a href="index.html" class="nav-overlay__link">TOP</a></li>
+          <li class="nav-overlay__item"><a href="#gallery" class="nav-overlay__link">ART WORK</a></li>
+          <li class="nav-overlay__item"><a href="#profile" class="nav-overlay__link">PROFILE</a></li>
+          <li class="nav-overlay__item"><a href="#contact" class="nav-overlay__link">CONTACT</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+
+ <header class="hero-section">
+  <div class="hero-content">
+    <h1 class="js-hero-appear">PORTFOLIO</h1>
+    <p class="js-hero-appear">OKA TAKATO</p>
+  </div>
+ </header>
+
+
+
+
+ <div class="hero-fixed-img js-hero-appear">
+  <img src="assets/svg/top img2.svg" alt="Decoration">
+ </div>
+
+
+
+ 
+  
+ <div class="image-container">
+  <img class="mozi2 js-fade" src="assets/svg/overview.svg" alt="画像1">
+ </div>
+
+  <p class="about webfont js-piro">
+    このサイトはポートフォリオサイトです。
+ <br>
+ <br>
+    飾らないけれど、どこか心に残るような、<br>シンプルで質の高いデザインを目指して活動しています。
+ <br>
+    スキルや作品、私のプロフィールも紹介しています。
+ <br>
+ <br>
+    ゆっくりとご覧いただければ幸いです。
+ <br>
+
+  </p>
+
+ <div class="image-container">
+  <img class="mozi2 js-fade" src="assets/svg/skills.svg" alt="画像1">
+ </div>
+
+
+ <img class="icon js-fade" src="assets/svg/skills icon.svg" alt="画像1">
+
+ <img class="icon js-fade" src="assets/img/skills 1.jpg" alt="画像1">
+ <img class="icon js-fade" src="assets/svg/skills 2.svg" alt="画像1">
+ <img class="icon js-fade" src="assets/img/Component 7.png" alt="画像1">
+
+ <div class="image-container">
+  <img class="mozi2 js-fade" ID="gallery" src="assets/svg/ark work.svg" alt="画像1">
+ </div>
+
+ <div class="gallery-title-area">
+    <h1 class="gallery-title js-hero-appear">poster design</h1>
+ </div>
+
+
+ <div class="gallery-container">
+    <a href="javascript:void(0);" class="gallery-card" onclick="openLightbox('assets/img/01.png')">
+        <div class="image-box"><img src="assets/img/01.png" alt=""></div>
+        <div class="caption"><h3>OSAKA</h3><p>大阪のイメージポスター</p><p>Illustrator/Lightroom</p></div>
+    </a>
+
+    <a href="javascript:void(0);" class="gallery-card" onclick="openLightbox('assets/img/tokai.jpg')">
+        <div class="image-box"><img src="assets/img/tokai.jpg" alt=""></div>
+        <div class="caption"><h3>URBAN GEOMETRY</h3><p>都市の幾何学をイメージしたポスター</p><p>Illustrator/Lightroom</p></div>
+    </a>
+
+    <a href="javascript:void(0);" class="gallery-card" onclick="openLightbox('assets/img/wafuu.jpg')">
+        <div class="image-box"><img src="assets/img/wafuu.jpg" alt=""></div>
+        <div class="caption"><h3>微睡む</h3><p>微睡む雰囲気をイメージしたポスター</p><p>Illustrator/Lightroom</p></div>
+    </a>
+ </div>
+
+ <div id="lightbox" class="lightbox-overlay" onclick="closeLightbox()">
+    <div class="close-btn"></div>
+    <img id="lightbox-img" src="" alt="">
+ </div>
+
+
+
+ <div class="gallery-title-area">
+    <h1 class="gallery-title2 js-hero-appear">logo・illustration design</h1>
+ </div>
+
+
+
+ <div class="gallery-container">
+    <a href="javascript:void(0);" class="gallery-card" onclick="openLightbox('assets/img/rogo design.jpg')">
+        <div class="image-box"><img src="assets/img/rogo design.jpg" alt=""></div>
+        <div class="caption"><h3>静かに香る</h3><p>静かな香りをイメージしたロゴ</p><p>Illustrator</p></div>
+    </a>
+
+    <a href="javascript:void(0);" class="gallery-card" onclick="openLightbox('assets/img/coffee.jpg')">
+        <div class="image-box"><img src="assets/img/coffee.jpg" alt=""></div>
+        <div class="caption"><h3>灯珈琲</h3><p>温かみのある灯火をイメージした珈琲店のロゴ</p><p>Illustrator</p></div>
+    </a>
+
+    <a href="javascript:void(0);" class="gallery-card" onclick="openLightbox('assets/img/hana-img.jpg')">
+        <div class="image-box"><img src="assets/img/hana-img.jpg" alt=""></div>
+        <div class="caption"><h3>Bloom quietly</h3><p>水彩画で描く優しい花のデザイン</p><p>Illustrator/Procreate</p></div>
+    </a>
+ </div>
+
+ <div id="lightbox" class="lightbox-overlay" onclick="closeLightbox()">
+    <div class="close-btn"></div>
+    <img id="lightbox-img" src="" alt="">
+ </div>
+
+
+
+ <div class="gallery-title-area">
+    <h1 class="gallery-title2 js-hero-appear">collage design</h1>
+ </div>
+
+
+
+
+
+ <div class="pfolio-wrapper">
+    <div class="pfolio-container">
+        <a href="#" class="pfolio-card" onclick="pfolioOpen(event, 'assets/img/flower.jpg')">
+            <div class="pfolio-image-box">
+                <img src="assets/img/flower.jpg" alt="Works 01">
+            </div>
+            <div class="pfolio-caption">
+                <h3>FLOWER GARDEN</h3>
+                <p>花の園をイメージしたコラージュ</p>
+                <p>Photoshop</p>
+            </div>
+        </a>
+
+         <a href="#" class="pfolio-card" onclick="pfolioOpen(event, 'assets/img/collage.jpg')">
+            <div class="pfolio-image-box">
+                <img src="assets/img/collage.jpg" alt="Works 02">
+            </div>
+            <div class="pfolio-caption">
+                <h3>レトロなパルミジャニーノ</h3>
+                <p>『凸面鏡の自画像』を現代的な視点で再構築したコラージュ</p>
+                <p>Photoshop</p>
+            </div>
+        </a>
+
+
+        <a href="#" class="pfolio-card" onclick="pfolioOpen(event, 'assets/img/summer.jpg')">
+            <div class="pfolio-image-box">
+                <img src="assets/img/summer.jpg" alt="Works 03">
+            </div>
+            <div class="pfolio-caption">
+                <h3>青と夏</h3>
+                <p>青と夏という曲をイメージしたコラージュ</p>
+                <p>Photoshop</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="pfolio-lightbox" class="pfolio-overlay" onclick="pfolioClose()">
+        <div class="pfolio-close-btn"></div>
+        <img id="pfolio-lightbox-img" src="" alt="">
+    </div>
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <div class="image-container">
+  <img class="mozi2 js-fade" ID="profile" src="assets/svg/profile.svg" alt="画像1">
+ </div>
+ 
+ <div class="profile-flex-wrapper">
+
+    <div class="text-block">
+      <p class="about webfont neme js-piro">
+       おか たかと
+      </p>
+
+      <p class="about webfont js-piro">
+       就職活動用にポートフォリオサイト<br>を作りました。
+       <br>
+       <br>
+       大学でデザイン、コーディングにつ<br>いて学んでいます。
+       <br>
+       <br>
+       自分で撮影した写真だからこそ表現<br>できる、細部までこだわった世界観<br>を大切にしています。
+    
+      </p>
+    </div>
+ 
+    <div class="profile-icon js-fade">
+      <img src="assets/img/profile png.png" alt="プロフィール画像">
+    </div>
+ 
+  </div>
+
+
+
+ <div class="section-wrapper">
+  <img class="mozi4" ID="contact" src="assets/svg/contact.svg" alt="お問い合わせ">
+ </div>
+
+</body>
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ロゴアニメサンプル</title>
+  <style>
+    /* 背景と中央揃え */
+    .start {
+      background-color: rgb(255, 255, 252);
+      position: fixed;
+      inset: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      z-index: 9999;
+      opacity: 1;
+    }
+
+    /* ロゴ画像 */
+    .start p img {
+      margin-top: -25vw;
+      opacity: 0;
+      width: 40vw; /* お好みで調整 */
+      transition: opacity 1.6s ease;
+    }
+
+    /* 文字アニメ */
+    .animated-text {
+      margin-top: -10vw;
+      font-size: 3vw; /* お好みで調整 */
+      color: #333;
+      font-family: "Julius Sans One", sans-serif;
+      letter-spacing: 45%; 
+    }
+
+    .animated-text span {
+      opacity: 0;
+      display: inline-block;
+      transform: translateY(20px);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="start">
+    <p><img src="assets/svg/rogo3.svg" alt="ロゴ"></p>
+    <p class="animated-text">PORTFOLIO</p>
+  </div>
+
+  <script>
+  /* =================================================
+  Opening Logic (Logo & Background)
+================================================= */
+window.addEventListener("load", () => {
+  const start = document.querySelector(".start");
+  const logo = document.querySelector(".start p img");
+  const textEl = document.querySelector(".animated-text");
+
+  // 終了を通知する関数
+  const notifyOpeningEnd = () => {
+    if (start) {
+      start.style.display = "none";
+    }
+    // ページ全体に「オープニング終わったよ」と通知
+    window.dispatchEvent(new CustomEvent('openingFinished'));
+  };
+
+  // 2回目以降のチェック
+  if (sessionStorage.getItem("visited")) {
+    notifyOpeningEnd();
+    return;
+  }
+
+  // 初回訪問の処理
+  sessionStorage.setItem("visited", "true");
+  if (!start || !logo || !textEl) {
+    notifyOpeningEnd();
+    return;
+  }
+
+  // ロゴと文字のアニメーション実行
+  setTimeout(() => { logo.style.opacity = 1; }, 500);
+
+  const text = textEl.textContent;
+  textEl.textContent = "";
+  [...text].forEach((char, i) => {
+    const span = document.createElement("span");
+    span.textContent = char;
+    textEl.appendChild(span);
+    setTimeout(() => {
+      span.style.transition = "opacity 0.3s ease, transform 0.3s ease";
+      span.style.opacity = 1;
+      span.style.transform = "translateY(0)";
+    }, 1000 + (i * 100));
+  });
+
+  // 背景を消して、完了通知を送る
+  setTimeout(() => {
+    start.style.transition = "opacity 0.5s ease";
+    start.style.opacity = 0;
+    setTimeout(notifyOpeningEnd, 500); // 物理的に消えたら通知
+  }, 3500);
+});
+  </script>
+
+</body>
+</html>
+
+
+</body>
+
+</html>
+
